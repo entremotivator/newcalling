@@ -11,7 +11,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="VAPI AI Assistant Manager",
+    page_title=" AI Assistant Manager",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -544,15 +544,7 @@ elif page == "⚙️ Settings":
     st.markdown('<div class="section-header">Environment Setup</div>', unsafe_allow_html=True)
     
     st.info("""
-    **To set up environment variables permanently:**
-    
-    1. Create a `.env` file in the application directory
-    2. Add the following lines:
-    ```
-    VAPI_API_KEY=your_api_key_here
-    VAPI_API_BASE=https://api.vapi.ai
-    VAPI_ORG_ID=your_org_id_here
-    ```
+   
     3. Restart the application
     """)
     
