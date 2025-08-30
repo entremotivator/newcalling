@@ -571,7 +571,7 @@ elif page == "⚙️ Settings":
     
     st.markdown('<div class="section-header">About</div>', unsafe_allow_html=True)
     st.markdown("""
-    **VAPI AI Assistant Manager** is a Streamlit application for managing VAPI AI voice assistants.
+   
     
     This application provides a user-friendly interface to:
     - Create and configure voice AI assistants
@@ -579,7 +579,7 @@ elif page == "⚙️ Settings":
     - View and edit existing assistants
     - Configure API connections
     
-    Built with Streamlit and the VAPI AI API.
+    Built by The ATM Agency.
     """)
 
 # Footer
